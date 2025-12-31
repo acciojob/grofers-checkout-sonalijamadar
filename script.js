@@ -16,7 +16,7 @@ return;
 	totalRow.id = "totalRow";
 	const totalCell = document.createElement("td");
 	totalCell.colSpan = 2;
-	totalCell.innerText = "Total Price: RS " + total;
+	totalCell.innerText = "Total Price: Rs " + total;
 
 	totalRow.appendChild(totalCell);
 	table.appendChild(totalRow);
